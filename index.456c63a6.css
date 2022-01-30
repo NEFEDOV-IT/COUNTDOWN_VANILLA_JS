@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main {
+  background-color: #000;
+  background-image: url("future.6daf11fd.jpg"), url("back-future.e204d8d7.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 10%, 50% 90%;
+  background-size: 350px 200px;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header, footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: darkslateblue;
+  font-weight: bold;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-left: 20px;
+  padding: 5px 10px;
+  background-color: #fff;
+}
+
+.date__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.date__input {
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.date__answer {
+  font-size: 20px;
+  text-align: center;
+}
+
+.error {
+  border: 3px solid #ff0000;
+  border-radius: 5px;
+}
+
+
+/*# sourceMappingURL=index.456c63a6.css.map */
